@@ -156,7 +156,7 @@ client.on('interactionCreate', async (interaction) => {
 
 client.on('message', async (message) => {
   if(message.content === 'ip') {
-    message.channel.send(`Java IP » MegaMC.Zanity.Net\nBedrock IP » MegaMC.Zanity.Net\nPort » 25565\nPE IP » MegaMC.Zanity.Net\nPort » 25565 
+    message.channel.send(`Java IP » MegaMC.Zanity.Net\n\nBedrock IP » MegaMC.Zanity.Net\nPort » 25565\n\nPE IP » MegaMC.Zanity.Net\nPort » 25565 
 `);
   }
 });
