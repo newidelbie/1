@@ -154,7 +154,7 @@ client.on('interactionCreate', async (interaction) => {
   }
 });
 
-client.on('messageCreate', async message => {
+client.on('message', async message => {
   if(message.content === 'ip') {
     message.channel.send(`
     MegaMC
