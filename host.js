@@ -1,12 +1,6 @@
 const express = require('express')
 const app = express()
 const port2 = 5050
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-app.listen(port2, () => {
-  console.log(`Example app listening at http://localhost:${port2}`)
-})
 const http = require("http");
 
 const host = 'localhost';
