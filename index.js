@@ -2,10 +2,7 @@
 
 require('./host.js');
 
-const httpServer = http.createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('I am alive!');
-});
+
 
 const discord = require('discord.js');
 const { Intents, Client, MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
