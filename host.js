@@ -1,10 +1,9 @@
 const express = require('express')
 const app = express()
-const port2 = 5050
-const http = require("http");
+const port2 = 3000
 
 const host = 'localhost';
-let port = 5000
+let port = process.env.PORT || 3000
 
 const requestListener = function (req, res) {};
 
